@@ -1,0 +1,26 @@
+ion-chip {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-avatar {
+  width: 65px; /* Tamaño del avatar */
+  height: 65px; /* Tamaño del avatar */
+}
+
+ion-button {
+  margin: 10px auto;
+  display: block;
+  --background: linear-gradient(to right, #ff7e5f, #feb47b); /* Color de fondo colorido */
+  --color: white; /* Color del texto */
+  --border-radius: 12px; /* Bordes redondeados */
+  --padding-start: 20px; /* Espaciado a la izquierda */
+  --padding-end: 20px; /* Espaciado a la derecha */
+  --height: 50px; /* Altura del botón */
+}
+
+ion-button:hover {
+  --background: linear-gradient(to right, #6a11cb, #2575fc); /* Cambio de color al pasar el ratón */
+}
